@@ -32,7 +32,7 @@ export const abi = [
     },
     {
       "inputs": [],
-      "name": "numWhitelistedAddresses",
+      "name": "numAddressesWhitelisted",
       "outputs": [
         {
           "internalType": "uint8",
@@ -64,7 +64,7 @@ export const abi = [
     }
   ];
 
-export const WHITELIST_CONTRACT_ADDRESS = "0xA84Ecb3771295904fEcFbfaCC179C19B4B869dce"
+export const WHITELIST_CONTRACT_ADDRESS = "0xb6019702d257b90FF3d5Aa5222789e1d039c232B"
 
 
 

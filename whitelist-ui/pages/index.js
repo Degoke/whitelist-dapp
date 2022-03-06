@@ -58,7 +58,7 @@ export default function Home() {
       const provider = await getProviderOrSigner()
       const whitelistContract = new Contract(WHITELIST_CONTRACT_ADDRESS, abi, provider)
 
-      const _numWhiteListed = await whitelistContract.numWhitelistedAddresses()
+      const _numWhiteListed = await whitelistContract.numAddressesWhitelisted()
       console.log(_numWhiteListed)
       setNumWhiteListed(_numWhiteListed)
     }
